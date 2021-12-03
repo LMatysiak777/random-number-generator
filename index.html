@@ -4,7 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+    <script src="scripts/index.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div id="div-main-container">
+      <h1>RANDOM NUMBER GENERATOR</h1>
+      <p>Please click "GENERATE!" button to generate 20 integers from 1 to 100.</p>
+      <button id="btn-generate" onclick="generateNumbers()"><h2>GENERATE!</h2></button><br />
+      <table>
+        <thead><b>RESULTS</b>:
+        <tr>
+            <th>Even Numbers</th>
+            <th>Odd Numbers</th>
+        </tr>
+        </thead>
+        <tbody id="table-results"></tbody>
+      </table>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,28 @@
+* {
+font-family:'Courier New', Courier, monospace;
+margin: 0;
+padding: 0;
+}
+
+#div-main-container {
+text-align: center;
+}
+
+button {
+margin: 10px;
+background-color: lightgreen;
+border: black solid 1px;
+}
+
+table {
+border-spacing: 0;
+margin: auto;
+padding: 0;
+ 
+}
+
+table th, td {
+padding: 5px;
+margin: 0;
+border: black solid 1px;
+}
