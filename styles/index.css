@@ -4,7 +4,7 @@ margin: 0;
 padding: 0;
 }
 
-#div-main-container {
+.div-main-container {
 text-align: center;
 }
 
@@ -17,8 +17,7 @@ border: black solid 1px;
 table {
 border-spacing: 0;
 margin: auto;
-padding: 0;
- 
+padding: 0; 
 }
 
 table th, td {
